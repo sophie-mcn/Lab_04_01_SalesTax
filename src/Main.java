@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         double itemPrice = 17.82;
-        double TAX_PERCENT = 0.05;
+        final double TAX_PERCENT = 0.05;
         double salesTax = itemPrice * TAX_PERCENT;
         double totalCost = itemPrice + salesTax;
 
